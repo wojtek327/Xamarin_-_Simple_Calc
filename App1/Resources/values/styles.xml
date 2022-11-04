@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="calcBtnStandardStyle">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="layout_rowWeight">1</item>
+    <item name="layout_columnWeight">1</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textColor">#FFFFF0</item>
+    <item name="android:background">#000066</item>
+    <item name="android:onClick">ButtonClick</item>
+  </style>
+  <style name="calcBtnExtraStyle">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="layout_rowWeight">1</item>
+    <item name="layout_columnWeight">1</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textColor">#FFFFF0</item>
+    <item name="android:background">#2989D4</item>
+    <item name="android:onClick">ButtonClick</item>
+  </style>
+</resources>

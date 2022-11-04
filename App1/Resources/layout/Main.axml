@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000001">
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000001"
+        android:textColor="#FFFFF0"
+        app:orientation="horizontal"
+        app:rowCount="3"
+        app:columnCount="1">
+        <TextView
+            android:id="@+id/clcTextViewDec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="" />
+        <TextView
+            android:id="@+id/clcTextViewHex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:text="Hex:" />
+        <TextView
+            android:id="@+id/clcTextViewBin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:text="Bin:" />
+    </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        app:orientation="horizontal"
+        app:rowCount="6"
+        app:columnCount="5">
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="/" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="x" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="-" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="+" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="bac" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="sqr^3" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="7" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="8" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="9" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="sqr^2" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="a^3" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="4" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="5" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="6" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="a^2" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="1/x" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="1" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="2" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="3" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="." />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="000" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="00" />
+        <Button
+            style="@style/calcBtnStandardStyle"
+            android:text="0" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="=" />
+        <Button
+            style="@style/calcBtnExtraStyle"
+            android:text="DEL" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
